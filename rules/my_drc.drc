@@ -1,0 +1,13 @@
+
+puts "DRC TEST STARTED"
+
+source($input)
+
+report("DRC Report", $report)
+
+metal = input(3, 0)
+
+metal.width(6.0).output("width_error", "Width violation")
+metal.space(12.0).output("spacing_error", "Spacing violation")
+
+puts "DRC TEST FINISHED"

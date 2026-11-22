@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report-database>
+ <description>Test Report</description>
+ <original-file/>
+ <generator>drc: script='rules/my_drc.drc'</generator>
+ <top-cell>TOP</top-cell>
+ <tags>
+ </tags>
+ <categories>
+  <category>
+   <name>width_error</name>
+   <description>Width violation</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>spacing_error</name>
+   <description>Spacing violation</description>
+   <categories>
+   </categories>
+  </category>
+ </categories>
+ <cells>
+  <cell>
+   <name>TOP</name>
+   <variant/>
+   <references>
+   </references>
+  </cell>
+ </cells>
+ <items>
+  <item>
+   <tags/>
+   <category>width_error</category>
+   <cell>TOP</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge-pair: (90,37;50,37)|(50,40;90,40)</value>
+   </values>
+  </item>
+ </items>
+</report-database>
